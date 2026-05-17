@@ -1,0 +1,7 @@
+Experiment,Layers,LR,Batch,Activation,Test Acc,ROC-AUC,Epochs Run,Churn Recall
+Baseline,"[64, 32]",0.001,32,relu,0.975,0.8422,29,0.1667
+Shallow [32],[32],0.001,32,relu,0.965,0.9205,41,0.1667
+"Deeper [128,64,32]","[128, 64, 32]",0.001,32,relu,0.7575,0.9201,15,1.0
+High LR 0.01,"[64, 32]",0.01,32,relu,0.9825,0.9399,21,0.1667
+Large Batch 128,"[64, 32]",0.001,128,relu,0.705,0.8003,15,0.6667
+Tanh Activation,"[64, 32]",0.001,32,tanh,0.4825,0.9543,15,1.0
